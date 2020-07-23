@@ -5,26 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>手机适应</title>
-    <script>
-window.addEventListener('load', function() {
-  if(window.innerWidth < 768){
-      var html = document.getElementsByTagName("html")[0];
-      html.style.fontSize = window.innerWidth/750*100 + "px";
-      console.log(window.innerWidth/750*100 + "px");
-    }
-  window.addEventListener('resize', function() {
-    if(window.innerWidth < 768){
-      var html = document.getElementsByTagName("html")[0];
-      html.style.fontSize = window.innerWidth/750*100 + "px";
-      console.log(window.innerWidth/750*100 + "px");
-    }
-  })
-})
-</script>
     <style type="text/css">
     #wenzi{
-      height: 80px;
-      line-height: 80px;
+      height: 40px;
+      line-height: 40px;
       width: 100%;
       display: flex;
       justify-content: space-between;
@@ -32,8 +16,8 @@ window.addEventListener('load', function() {
     }
       .wenzi2{
         font-size: 15px;
-        height: 40px;
-        line-height: 40px;
+        height: 20px;
+        line-height: 20px;
         width: 100%;
         text-align: center;
       }
